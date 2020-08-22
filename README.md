@@ -1,17 +1,2 @@
 n=18
-guesses=1
-print("Number of guesses is limited to 8 times only")
-while(guesses<=8):
-    guess_no =int(input("Guess the number:"))
-    if guess_no<18:
-        print("You entered smaller number please input greater number:")
-    elif guess_no>18:
-        print("You entered greater number please input smaller number:")
-    else:
-        print("You won")
-        print(guesses, "number of guesses he took took to finish")
-        break
-    print(8-guesses,"number of guesses left")
-    guesses =guesses+1
-if(guesses>8):
-    print("GAME OVER")
+guess
